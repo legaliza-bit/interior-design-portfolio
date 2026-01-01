@@ -23,42 +23,45 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "gable-house",
-    title: "The Gable House",
+    title: "Квартира 1",
     category: "Residential",
-    description: "East Coast tradition meets modern mountain living. A masterful blend of textures and tones creates a welcoming atmosphere in this family home. The design focuses on open spaces, natural light, and a seamless flow between indoor and outdoor living areas.",
+    description: "Однокомнатная квартира там-то там-то.",
     location: "Aspen, CO",
     year: "2024",
     cover: image1,
-    images: gallery1
+    images: gallery1,
   },
   {
     id: "oaks-project",
     title: "The Oaks Project",
     category: "Renovation",
-    description: "A masterful blend of modern and traditional elements. This historic renovation preserves the character of the original structure while introducing contemporary conveniences and style. The palette is kept neutral to highlight the architectural details.",
+    description:
+      "A masterful blend of modern and traditional elements. This historic renovation preserves the character of the original structure while introducing contemporary conveniences and style. The palette is kept neutral to highlight the architectural details.",
     location: "Charleston, SC",
     year: "2023",
     cover: image2,
-    images: gallery2
+    images: gallery2,
   },
   {
     id: "hilltop-estate",
     title: "Hilltop Estate",
     category: "New Build",
-    description: "Elevated indoor/outdoor living in sunny SoCal. This estate was designed to maximize views and embrace the California lifestyle. Large glass doors disappear into pockets, merging the living room with the pool deck.",
+    description:
+      "Elevated indoor/outdoor living in sunny SoCal. This estate was designed to maximize views and embrace the California lifestyle. Large glass doors disappear into pockets, merging the living room with the pool deck.",
     location: "Calabasas, CA",
     year: "2025",
     cover: image3,
-    images: gallery3
+    images: gallery3,
   },
   {
     id: "lakeside-retreat",
     title: "Lakeside Retreat",
     category: "Vacation Home",
-    description: "A serene escape nestled by the water. Using local materials and a soft, nature-inspired color palette, this retreat offers a peaceful sanctuary from city life. Custom joinery and bespoke furniture pieces add a touch of luxury.",
+    description:
+      "A serene escape nestled by the water. Using local materials and a soft, nature-inspired color palette, this retreat offers a peaceful sanctuary from city life. Custom joinery and bespoke furniture pieces add a touch of luxury.",
     location: "Lake Tahoe, NV",
     year: "2024",
     cover: image4,
-    images: gallery4
-  }
+    images: gallery4,
+  },
 ];
